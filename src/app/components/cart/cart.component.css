@@ -1,0 +1,43 @@
+.product {
+  display: flex;
+  width: 50%;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(241, 124, 157);
+  padding: 5px 15px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+.product-text {
+  font-weight: 700;
+  color: #fff;
+}
+.total {
+  text-align: center;
+}
+.btn {
+  padding: 5px;
+  margin: 5px;
+  margin-left: 0;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  border-style: none;
+  transition: color 1s, background-color 1s;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.btn:hover {
+  background-color: #ddd;
+  color: #000;
+}
+.btn-delete {
+  background-color: rgb(254, 34, 96);
+}
+.total {
+  font-size: 26px;
+  font-weight: 900;
+  color: rgb(254, 34, 96);
+}

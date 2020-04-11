@@ -1,0 +1,10 @@
+<div class="cart">
+  <div *ngFor="let product of cart" class="product">
+    <div class="product-text">{{ product.name }}</div>
+    <div class="product-text">{{ product.price }}</div>
+    <div class="btn btn-delete" (click)="deleteFromCart(product)">Delete</div>
+  </div>
+  <div class="total" *ngIf="cart.length > 0">
+    Total: <span>{{ total | number: "1.2-2" | currency: "USD":"symbol" }}</span>
+  </div>
+</div>
